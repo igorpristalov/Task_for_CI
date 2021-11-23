@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "7c5a89ca-1a58-49af-8089-5f0d3c4869e0",
+		"name": "Task7_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.openweathermap.org/data/2.5/find?q=Penza,RU&type=like&APPID=cb1d23b13257973ab76b6e64a1ee83df",
+					"protocol": "http",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"find"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Penza,RU"
+						},
+						{
+							"key": "type",
+							"value": "like"
+						},
+						{
+							"key": "APPID",
+							"value": "cb1d23b13257973ab76b6e64a1ee83df"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
