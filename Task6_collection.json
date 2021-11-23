@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "55f419ec-3e0f-4571-836e-a3dddeab45a4",
+		"name": "Task6_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Friends_of_friend_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/friends.get?fields=uid&order=random&count=10&access_token=8b6e81cb29e566f46cba03a262bbc2c8b0ee495d23292a48df920a2eea54d454c78c86b6322c555a096fb&v=5.131&user_id=190414541",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"friends.get"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "uid"
+						},
+						{
+							"key": "order",
+							"value": "random"
+						},
+						{
+							"key": "count",
+							"value": "10"
+						},
+						{
+							"key": "access_token",
+							"value": "8b6e81cb29e566f46cba03a262bbc2c8b0ee495d23292a48df920a2eea54d454c78c86b6322c555a096fb"
+						},
+						{
+							"key": "v",
+							"value": "5.131"
+						},
+						{
+							"key": "user_id",
+							"value": "190414541"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "My_friends_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.vk.com/method/friends.get?fields=uid&order=random&count=10&access_token=8b6e81cb29e566f46cba03a262bbc2c8b0ee495d23292a48df920a2eea54d454c78c86b6322c555a096fb&v=5.131",
+					"protocol": "https",
+					"host": [
+						"api",
+						"vk",
+						"com"
+					],
+					"path": [
+						"method",
+						"friends.get"
+					],
+					"query": [
+						{
+							"key": "fields",
+							"value": "uid"
+						},
+						{
+							"key": "order",
+							"value": "random"
+						},
+						{
+							"key": "count",
+							"value": "10"
+						},
+						{
+							"key": "access_token",
+							"value": "8b6e81cb29e566f46cba03a262bbc2c8b0ee495d23292a48df920a2eea54d454c78c86b6322c555a096fb"
+						},
+						{
+							"key": "v",
+							"value": "5.131"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
