@@ -1,2 +1,1 @@
-# Task_for_CI
-Task_for_CI
+Создание репозитория на github
